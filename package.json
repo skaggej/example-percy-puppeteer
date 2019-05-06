@@ -1,9 +1,12 @@
 {
   "private": true,
   "scripts": {
+    "serve": "node run server",
     "test": "percy exec -- node run-tests.js"
   },
   "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2",
     "todomvc-app-css": "^2.2.0",
     "todomvc-common": "^1.0.2"
   },
