@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "serve": "node run server",
     "test": "percy exec -- node run-tests.js"
   },
   "dependencies": {
